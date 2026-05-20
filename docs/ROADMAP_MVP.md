@@ -1,6 +1,6 @@
 # RecruiterCheck MCP — MVP Roadmap (30-day speed-to-launch)
 
-Status: Planning complete. Implementation not started.
+Status: Phases 1-5 complete. Phase 6 next.
 Owner model: gpt-5.3-codex (profile: recruitercheck-mcp)
 Scope discipline: strict MVP only.
 
@@ -132,25 +132,25 @@ Exit criteria:
 ## 2) Week-1 execution checklist
 
 Day 1:
-- [ ] Repo skeleton
-- [ ] MCP bootstrap with registered tools
+- [x] Repo skeleton
+- [x] MCP bootstrap with registered tools
 
 Day 2:
-- [ ] Deterministic scoring + explainability
-- [ ] Edge-case tests for thresholds
+- [x] Deterministic scoring + explainability
+- [x] Edge-case tests for thresholds
 
 Day 3:
-- [ ] Implement 4 tool handlers
-- [ ] Input validation + errors
+- [x] Implement 4 tool handlers
+- [x] Input validation + errors
 
 Day 4:
-- [ ] Supabase migrations
-- [ ] API key auth middleware
-- [ ] Persist scans
+- [x] Supabase migrations
+- [x] API key auth middleware
+- [x] Persist scans
 
 Day 5:
-- [ ] Landing page + README
-- [ ] Registry asset package
+- [x] Landing page + README
+- [x] Registry asset package
 
 Day 6:
 - [ ] Deploy + smoke test

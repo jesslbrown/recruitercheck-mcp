@@ -1,0 +1,19 @@
+{
+  "name": "recruitercheck-mcp",
+  "description": "MCP server for scam-risk checks on job postings, recruiter emails, and company domains.",
+  "version": "0.1.0",
+  "runtime": "node",
+  "entrypoint": "apps/mcp-server/dist/index.js",
+  "transport": "stdio",
+  "tools": [
+    "check_job_posting_legitimacy",
+    "check_recruiter_email",
+    "check_company_domain",
+    "explain_risk_signals"
+  ],
+  "env": [
+    "SUPABASE_URL",
+    "SUPABASE_SERVICE_ROLE_KEY"
+  ],
+  "license": "UNLICENSED"
+}

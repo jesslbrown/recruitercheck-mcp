@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+*.log
+
+# Build artifacts
+apps/mcp-server/dist/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Supabase local temp
+supabase/.temp/
+
+# Local scratch
+tmp_remote_schema.sql

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RecruiterCheck MCP</title>
+  <meta name="description" content="Detect job scam risk in seconds with RecruiterCheck MCP." />
+  <style>
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; background:#0b1020; color:#e6eaf2; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 56px 20px; }
+    .card { background:#121a33; border:1px solid #253055; border-radius:14px; padding:24px; }
+    h1 { font-size: 40px; line-height:1.1; margin:0 0 12px; }
+    p { color:#b8c0d9; }
+    .cta { display:inline-block; margin-top:16px; padding:12px 16px; border-radius:10px; background:#5b8cff; color:white; text-decoration:none; font-weight:600; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin-top:20px; }
+    .tile { background:#0f1730; border:1px solid #26345f; border-radius:10px; padding:14px; }
+    code { background:#0b1328; padding:2px 6px; border-radius:6px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>RecruiterCheck MCP</h1>
+      <p>AI assistants can call RecruiterCheck to score scam risk for job postings, recruiter emails, and company domains using deterministic signals + scan logging.</p>
+      <a class="cta" href="#setup">Get setup guide</a>
+      <div class="grid">
+        <div class="tile"><strong>4 MCP tools</strong><p>Job posting, recruiter email, domain check, and signal explanation.</p></div>
+        <div class="tile"><strong>Deterministic scoring</strong><p>Stable 0–100 risk score with clear explanation output.</p></div>
+        <div class="tile"><strong>Supabase persistence</strong><p>Every scan persisted for usage tracking and billing.</p></div>
+      </div>
+      <p style="margin-top:18px">Example prompt: <code>Check if this recruiter email looks like a scam</code></p>
+
+      <div id="setup" class="tile" style="margin-top:16px;">
+        <strong>Setup guide</strong>
+        <p>1) Build server: <code>cd apps/mcp-server && npm install && npm run build</code></p>
+        <p>2) Set env: <code>SUPABASE_URL</code> and <code>SUPABASE_SERVICE_ROLE_KEY</code></p>
+        <p>3) Start: <code>npm run start</code></p>
+        <p>4) Full docs: open repo root <code>README.md</code></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
