@@ -1,6 +1,6 @@
 # RecruiterCheck MCP — MVP Roadmap (30-day speed-to-launch)
 
-Status: Phases 1-5 complete. Phase 6 next.
+Status: Phases 1-6 complete. Phase 7 next.
 Owner model: gpt-5.3-codex (profile: recruitercheck-mcp)
 Scope discipline: strict MVP only.
 
@@ -153,10 +153,11 @@ Day 5:
 - [x] Registry asset package
 
 Day 6:
-- [ ] Deploy + smoke test
-- [ ] Fix blocking defects only
+- [x] Deploy + smoke test
+- [x] Fix blocking defects only
 
 Day 7:
+- [ ] Rotate exposed secrets (Supabase service role key, GitHub PAT) and update Vercel env vars
 - [ ] Registry submissions
 - [ ] Start distribution prompts in assistants
 

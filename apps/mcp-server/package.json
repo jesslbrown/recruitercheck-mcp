@@ -4,7 +4,7 @@
   "private": true,
   "description": "RecruiterCheck MCP server skeleton",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "api/mcp.ts",
   "scripts": {
     "dev": "tsc --watch --preserveWatchOutput",
     "build": "tsc -p tsconfig.json",

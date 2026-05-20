@@ -1,0 +1,7 @@
+{
+  "buildCommand": "npm run build",
+  "rewrites": [
+    { "source": "/mcp", "destination": "/api/mcp" },
+    { "source": "/", "destination": "/api/mcp" }
+  ]
+}
