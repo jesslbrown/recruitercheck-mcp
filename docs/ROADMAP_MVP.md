@@ -159,7 +159,7 @@ Day 6:
 Day 7:
 - [ ] Rotate exposed secrets (Supabase service role key, GitHub PAT) and update Vercel env vars
 - [ ] Registry submissions
-- [ ] Start distribution prompts in assistants
+- [x] Start distribution prompts in assistants
 
 ## 3) Definition of Done (MVP)
 

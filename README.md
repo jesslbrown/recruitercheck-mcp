@@ -103,6 +103,13 @@ See:
 - registry/install.md
 - registry/prompts.md
 - registry/submissions.md
+- registry/distribution.md
+
+## Hosted MCP endpoint (production)
+
+- Health: https://mcp-server-seven-alpha.vercel.app/
+- MCP: https://mcp-server-seven-alpha.vercel.app/mcp
+- Required header: Accept: application/json, text/event-stream
 
 ## Status
 
